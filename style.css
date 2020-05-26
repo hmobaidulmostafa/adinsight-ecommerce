@@ -1,0 +1,47 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    margin-bottom: 40px;
+}
+.carousel-item{
+    padding: 10px 30px;
+}
+.slide-bg{
+    background-color: rgb(255, 238, 208);
+    border-radius: 10px;
+    height: 400px;
+}
+.price{
+    font-weight: 600;
+    font-size: 20pt;
+    color: green;
+}
+.slide-btn{
+    background-image: linear-gradient(to bottom, green, rgb(95, 218, 13));
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+.cat1, .cat2, .cat3{
+    border-radius: 10px;
+    color: white;
+}
+.categories h1{
+    font-size: 22pt;
+}
+.categories img{
+    height: 110px;
+}
+.cat1{
+    background-image: linear-gradient(to right, rgb(253, 71, 71), rgb(255, 217, 0));
+}
+.cat2{
+    background-image: linear-gradient(to right, rgb(255, 107, 255), rgb(255, 217, 0));
+}
+.cat3{
+    background-image: linear-gradient(to right, rgb(84, 245, 84), rgb(255, 217, 0));
+}
