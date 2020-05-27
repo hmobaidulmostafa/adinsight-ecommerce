@@ -45,3 +45,12 @@ body{
 .cat3{
     background-image: linear-gradient(to right, rgb(84, 245, 84), rgb(255, 217, 0));
 }
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 9px grey;
+}
+.card img{
+    height: 300px;
+    width: 300px;
+}
