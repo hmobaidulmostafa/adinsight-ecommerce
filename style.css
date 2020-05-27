@@ -1,6 +1,10 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.navbar{
+    background-color: rgb(244, 251, 255);
+    border-radius: 0px 0px 10px 10px;
+}
 .container{
     margin-bottom: 40px;
 }
@@ -8,7 +12,7 @@ body{
     padding: 10px 30px;
 }
 .slide-bg{
-    background-color: rgb(255, 238, 208);
+    background-color: rgb(244, 251, 255);
     border-radius: 10px;
     height: 400px;
 }
@@ -18,7 +22,7 @@ body{
     color: green;
 }
 .slide-btn{
-    background-image: linear-gradient(to bottom, green, rgb(95, 218, 13));
+    background-image: linear-gradient(to bottom, rgb(16, 172, 16), rgb(173, 235, 131));
     padding: 5px 20px;
     border: none;
     border-radius: 8px;
@@ -37,26 +41,21 @@ body{
     height: 110px;
 }
 .cat1{
-    background-image: linear-gradient(to right, rgb(253, 71, 71), rgb(255, 217, 0));
+    background-image: linear-gradient(to right, rgb(66, 241, 81), rgb(255, 217, 0));
 }
 .cat2{
-    background-image: linear-gradient(to right, rgb(255, 107, 255), rgb(255, 217, 0));
+    background-image: linear-gradient(to right, rgb(255, 154, 107), rgb(255, 217, 0));
 }
 .cat3{
-    background-image: linear-gradient(to right, rgb(84, 245, 84), rgb(255, 217, 0));
+    background-image: linear-gradient(to right, rgb(255, 110, 195), rgb(255, 217, 0));
 }
 .card{
     border: none;
     border-radius: 10px;
     box-shadow: 4px 4px 9px grey;
 }
-.card img{
-    height: 200px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
 #subscribe{
+    background-color: rgb(244, 251, 255);
+    border-radius: 10px;
     height: 300px;
-    background-color: rgb(255, 238, 208);
 }
