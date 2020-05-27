@@ -21,7 +21,7 @@ body{
     background-image: linear-gradient(to bottom, green, rgb(95, 218, 13));
     padding: 5px 20px;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     color: white;
     text-align: center;
     font-weight: 700;
@@ -51,6 +51,12 @@ body{
     box-shadow: 4px 4px 9px grey;
 }
 .card img{
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#subscribe{
     height: 300px;
-    width: 300px;
+    background-color: rgb(255, 238, 208);
 }
